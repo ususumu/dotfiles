@@ -1,0 +1,5 @@
+;; ~/.emacs.d/elispディレクトリをロードパスに追加する
+;; ただし、add-to-load-path関数を作成した場合は不要
+(add-to-list 'load-path "~/.emacs.d/elisp")
+(require 'wb-line-number)
+(wb-line-number-toggle)
