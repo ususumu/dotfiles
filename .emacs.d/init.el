@@ -1,5 +1,5 @@
 (global-linum-mode t)
-;;(setq-default-tab-width 4)
+(setq default-tab-width 4)
 (defun add-to-load-path (&rest paths)
   (let (path))
     (dolist (path paths paths)
