@@ -131,6 +131,7 @@
 (require 'helm-config)
 (require 'helm-mode)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
+(global-set-key (kbd "C-x h") 'helm-mini)
 
 ;;Default Directory
 (setq default-directory "C:\\temp" )
