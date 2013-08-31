@@ -13,9 +13,6 @@
 (require 'pymacs)
 (require 'install-elisp)
 (setq install-elisp-repository-directory "~/.emacs.d/elisp") 
-;;;;;;;;;;;Proxy設定;;;;;;;;;;;;;;;;;;;;;
-(setq url-proxy-services '(("http" . "proxy.gateway-net.fuji-ric.co.jp:10080")
-			   ("https" . "proxy.gateway-net.fuji-ric.co.jp:10080")))
 ;;関数定義
 ;;o埋め連番生成
 (defun makePadNum(x)
